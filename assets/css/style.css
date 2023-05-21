@@ -1,0 +1,79 @@
+#title{
+    margin: 30px; 
+    color: skyblue;
+    text-align: center;
+}
+
+body{
+ background-color: black;
+}
+
+#timer{
+    text-align: end;
+    color: skyblue; 
+   font-size: 20px; 
+   
+}
+
+#start-button{
+ color: skyblue; 
+ background-color: black;
+ 
+}
+
+#quiz-container{
+text-align: center;
+
+}
+/* Hide Questions*/
+.hidden{
+    display: none; 
+}
+ 
+#question-1{
+    color: skyblue; 
+}
+#question-2{
+    color:  skyblue;
+}
+
+#question-3{
+    color: skyblue;
+}
+#question-4{
+    color: skyblue;  
+} 
+#question-5{
+    color: skyblue; 
+}
+
+.answer-options{
+    list-style: none; 
+}
+/*CUSTOMIZING QUESTION DISPLAY*/ 
+.option{
+    display: block; 
+    text-align: center; 
+    margin-left: 450px; 
+    margin-top: 50px; 
+    
+}
+
+.option:hover{ 
+    background-color: plum;  
+}
+
+#error-message{
+    color: aliceblue; 
+}
+
+
+#score-form{
+    color: aliceblue; 
+    display: none;
+}
+
+#end-quiz-message{
+    color: aliceblue; 
+    font-size: 30px; 
+}

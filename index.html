@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Code quiz</title>
+  </head>
+  <body> 
+    <!--TIMER-->
+    <div id="timer">Timer: <span id="timer-value">0</span></div>  
+      <!--QUIZ-->
+    <div id="quiz-container">
+      <h1 id="title">Code Quiz</h1>
+      <!--START BUTTON-->
+      <button id="start-button">Start Quiz</button>
+      <!--QUESTION DISPLAY-->
+      <section class="quiz-questions"></section> 
+      <ul id="answer-options">
+        <div id="question-1" class="hidden">
+          <div class="question-text">Question 1: Which is the smallest planet in our solar system?</div>
+          <ul class="answer-options">
+            <button class="option">Mercury</button>
+            <button class="option">Venus</button>
+            <button class="option">Earth</button>
+            <button class="option">Saturn</button>   
+          </ul>
+        </div>
+
+        <div id="question-2" class="hidden">
+          <div class="question-text">Question 2: Which planet is the oldest in our solar system?</div>
+          <ul class="answer-options">
+            <button class="option">Venus</button>
+            <button class="option">Uranus</button>
+            <button class="option">Mars</button>
+            <button class="option">Jupiter</button>
+          </ul>
+        </div>
+
+        <div id="question-3" class="hidden">
+          <div class="question-text">Question 3: Which planet is closest in size to earth?</div>
+          <ul class="answer-options">
+            <button class="option">Mars</button>
+            <button class="option">Saturn</button> 
+            <button class="option">Venus</button>
+            <button class="option">Uranus</button>
+          </ul>
+        </div>
+
+        <div id="question-4" class="hidden">
+          <div class="question-text">Question 4: How many planets in our solar system are larger than Earth?</div>
+          <ul class="answer-options">
+            <button class="option">3</button>
+            <button class="option">4</button>
+            <button class="option">1</button>
+            <button class="option">2</button> 
+          </ul>
+        </div>
+
+        <div id="question-5" class="hidden">
+          <div class="question-text">Question 5: What are stars made of?</div>
+          <ul class="answer-options">
+            <button class="option">Darkmatter</button>
+            <button class="option">Hot Gas</button> 
+            <button class="option">Light</button>
+            <button class="option">Gravity</button> 
+          </ul>
+        </div>
+        <p id="error-message"></p> 
+        
+    </div>
+    <div id="end-quiz-message"></div> 
+    <!--SUBMIT HIGHSCORES BUTTON-->
+    <form id="score-form" class="hidden">
+      <input type="text" id="initials-input" placeholder="Enter your initials" />
+      <button type="submit">Submit</button> 
+    </form> 
+    <script src="js/script.js"></script> 
+  </body> 
+</html>
